@@ -12,7 +12,7 @@ class StreamEdit extends React.Component {
     }
 
     console.log(this.props);
-    return <div>StreamEdit</div>;
+    return <div>{this.props.stream.title}</div>;
   }
 }
 
